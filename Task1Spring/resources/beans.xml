@@ -8,5 +8,5 @@
         <constructor-arg name="gender" value="male" type="java.lang.String"></constructor-arg>
         <constructor-arg name="age" value="30" type="int"></constructor-arg>
     </bean>
-    <bean name="movie" class="com.stackroute.Movie" autowire="byType"></bean>
+    <bean name="movie" class="com.stackroute.Movie" autowire="byName"></bean>
 </beans>
