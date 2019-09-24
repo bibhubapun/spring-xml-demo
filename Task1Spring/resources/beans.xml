@@ -10,6 +10,7 @@
     </bean>
     <bean name="movie" class="com.stackroute.Movie" autowire="byName"></bean>
     <bean id="beanLifecycle" class="com.stackroute.BeanLifecycleDemoBean" init-method="customInit" destroy-method="customDelete">
-
     </bean>
+
+    <bean id="beanPostProcess" class="com.stackroute.BeanPostProcessorDemoBean"></bean>
 </beans>
